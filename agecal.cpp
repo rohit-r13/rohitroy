@@ -14,6 +14,7 @@ float calculateGrade(int marks) {
     else return 0.00;
 }
 
+
 char getLetterGrade(float gradePoints) {
     if (gradePoints >= 3.75) return 'A';
     else if (gradePoints >= 3.50) return 'B+';
@@ -74,6 +75,6 @@ int main() {
     cout << "\nTotal marks: " << totalMarks << endl;
     cout << "GPA: " << gpa << endl;
     cout << "Overall grade: " << overallGrade << endl;
-
+    cout<<"rohit roy"<<endl;
     return 0;
 }
